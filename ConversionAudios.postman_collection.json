@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "536b8353-6b57-48b7-b1b9-279481257dcf",
+		"name": "ConversionAudios",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/tasks",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/E:/Audios/audio.mp3"
+						},
+						{
+							"key": "newFormat",
+							"value": "wav",
+							"type": "text"
+						},
+						{
+							"key": "fileName",
+							"value": "audio.mp3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://172.23.66.134:5000/tasks",
+					"protocol": "http",
+					"host": [
+						"172",
+						"23",
+						"66",
+						"134"
+					],
+					"port": "5000",
+					"path": [
+						"tasks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

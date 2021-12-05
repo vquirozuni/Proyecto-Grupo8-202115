@@ -1,0 +1,20 @@
+{
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/home/estudiante/Proyecto-Grupo8-202120/audio.mp3"
+						},
+						{
+							"key": "newFormat",
+							"value": "wav",
+							"type": "text"
+						},
+						{
+							"key": "fileName",
+							"value": "audio.mp3",
+							"type": "text"
+						}
+					]
+				}
